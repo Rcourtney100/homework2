@@ -1,0 +1,16 @@
+.image {
+	background-image: url("http://www.freedigitalphotos.net/images/img/homepage/87357.jpg");
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 25px;
+	background-size: 100% 100%;
+	border: 5px solid red;
+}
+
+@media screen and (max-width: 500px) {
+	.image {border:none;
+			background-image: url("http://7606-presscdn-0-74.pagely.netdna-cdn.com/wp-content/uploads/2016/03/Dubai-Photos-Images-Oicture-Dubai-Landmarks-800x600.jpg");
+			height: 150px;
+			width: 150px;
+	}

@@ -1,0 +1,61 @@
+@media all and (max-width: 480px){
+
+.image {
+	background-image: url("Images/IMG_1313.jpg");
+	background-size: contain;
+	width: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+	padding: 0;
+}
+}
+li {
+	list-style-type: none;
+	font-size: 30px;
+	font-color: gray;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px){
+
+.image1 {
+	background-image: url("Images/IMG_1314.jpg");
+	background-size: contain;
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+}
+}
+
+@media all and (min-width: 769px){
+
+.image2 {
+	background-image: url("Images/IMG_1282.jpg");
+	background-size: contain;
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+}	
+}
+
+body {
+	background-image: url("http://www.planwallpaper.com/static/images/518164-backgrounds.jpg");
+}
+
+li {
+	font-size: 15px;
+}
+footer {
+	font-weight: bold;
+	font-size: 20px;
+}
+p {
+	font-style: italic;
+	display: inline-block;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 35px;
+	float: none;
+	text-align: center;
+}

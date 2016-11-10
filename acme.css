@@ -1,0 +1,35 @@
+@media all and (max-width: 480px){
+
+ul {
+	list-style-type: none;
+	color: grey;
+	font-size: 30px;
+	padding: 0;
+}
+h1 {
+	color: grey;
+	font-weight: normal;
+}
+h2 {
+	color: grey;
+	font-weight: normal;
+}
+p {
+	color: grey;
+}
+}
+
+@media all and (min-width: 481px){
+
+.anvil{
+	background-image: url("anvil.png");
+	height: 100%;
+	width:100%;
+}
+ul {
+	list-style-type: none;
+	font-size: 30px;
+	color: grey;
+	padding: 0;
+}
+}
